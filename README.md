@@ -2,7 +2,7 @@
 
 Submitted by: **Emily Yau Yee Tsui**
 
-This web app: **This web application allows users to study Spanish vocabulary separated into three categories: verbs, nouns, and pronouns. This studying aid uses a flashcard method where users can flip the cards, skip to next card or previous card, and type in an answer to check if they got the word correct or not.**
+**This web application allows users to study Spanish vocabulary separated into three categories: verbs, nouns, and pronouns. This studying aid uses a flashcard method where users can flip the cards, skip to next card or previous card, and type in an answer to check if they got the word correct or not.**
 
 Time spent: **6** hours spent in total
 
@@ -30,10 +30,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/YMGsppj"  ><a href="//imgur.com/a/YMGsppj">Studying Aid Spanish Vocabulary</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-
-GIF created with ...  [Kap](https://getkap.co/) for macOS
+GIF created with [Kap](https://getkap.co/) for macOS.
 
 ## Notes
 
