@@ -1,0 +1,55 @@
+.flashcard {
+    width: 220px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+    margin: 20px auto;
+  }
+  
+  .flashcard > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.6s;
+    box-sizing: border-box;
+    padding: 25px;
+  }
+  
+  .flashcard .front {
+    background-color: inherit;
+  }
+  
+  .flashcard .back {
+    background-color: inherit;
+    transform: rotateY(180deg);
+  }
+  
+  .flashcard.flipped .front {
+    transform: rotateY(180deg);
+  }
+  
+  .flashcard.flipped .back {
+    transform: rotateY(360deg);
+  }
+
+  /* Color classes based on type */
+.verb .front,
+.verb .back {
+  background-color: rgb(202, 245, 222); /* Green */
+}
+
+.noun .front,
+.noun .back {
+  background-color: rgb(190, 219, 229); /* Blue */
+}
+
+.pronoun .front,
+.pronoun .back {
+  background-color: pink; /* Pink */
+}
